@@ -1,0 +1,7 @@
+{
+    "parent": "additions:block/copper_patina/copper_patina_side_alt",
+    "textures": {
+        "line": "additions:block/copper_patina_line1"
+    },
+    "render_type": "cutout"
+}

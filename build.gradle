@@ -16,9 +16,9 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '6.0.2'
-group = 'dqu.additionaladditions' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'additionaladditions'
+version = '6.0.1'
+group = 'dqu.additions' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'additions'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -38,7 +38,7 @@ minecraft {
     //
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: 'official', version: '1.20.2'
+    mappings channel: 'official', version: '1.20.1'
 
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
@@ -61,10 +61,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'additionaladditions'
+            property 'forge.enabledGameTestNamespaces', 'additions'
 
             mods {
-                additionaladditions {
+                additions {
                     source sourceSets.main
                 }
             }
@@ -78,10 +78,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'additionaladditions'
+            property 'forge.enabledGameTestNamespaces', 'additions'
 
             mods {
-                additionaladditions {
+                additions {
                     source sourceSets.main
                 }
             }
@@ -106,10 +106,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'additionaladditions'
+            property 'forge.enabledGameTestNamespaces', 'additions'
 
             mods {
-                additionaladditions {
+                additions {
                     source sourceSets.main
                 }
             }
@@ -123,10 +123,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'additionaladditions', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'additions', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                additionaladditions {
+                additions {
                     source sourceSets.main
                 }
             }
@@ -151,7 +151,7 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.20.2-48.0.0'
+    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
@@ -171,7 +171,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "additionaladditions",
+                "Specification-Title"     : "additions",
                 "Specification-Vendor"    : "additionalmods",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
@@ -202,8 +202,8 @@ publishing {
 }
 
 mixin {
-    add sourceSets.main, 'AdditionalAdditions.mixins.refmap.json'
-    config 'AdditionalAdditions.mixins.json'
+    add sourceSets.main, 'Additions.mixins.refmap.json'
+    config 'Additions.mixins.json'
 
     debug.verbose = true
     debug.export = true

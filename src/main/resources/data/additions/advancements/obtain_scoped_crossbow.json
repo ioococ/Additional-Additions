@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/ol_betsy",
+  "display": {
+    "title": {
+      "translate": "additions.advancements.obtain_scoped_crossbow"
+    },
+    "description": {
+      "translate": "additions.advancements.obtain_scoped_crossbow.desc"
+    },
+    "icon": {
+      "item": "additions:crossbow_with_spyglass"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["additions:crossbow_with_spyglass"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain"
+    ]
+  ]
+}

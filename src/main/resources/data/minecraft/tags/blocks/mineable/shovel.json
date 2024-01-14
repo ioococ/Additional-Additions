@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    {"id": "additionaladditions:patina_block", "required": false}
+    {"id": "additions:patina_block", "required": false}
   ]
 }

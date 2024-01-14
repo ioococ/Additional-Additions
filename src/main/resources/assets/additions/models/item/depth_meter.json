@@ -1,0 +1,24 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "additions:item/depth_meter_05"
+    },
+    "overrides": [
+        { "predicate": { "additions:angle": 0.0 }, "model": "additions:item/depth_meter_00" },
+        { "predicate": { "additions:angle": 0.0625 }, "model": "additions:item/depth_meter_01" },
+        { "predicate": { "additions:angle": 0.125 }, "model": "additions:item/depth_meter_02" },
+        { "predicate": { "additions:angle": 0.1875 }, "model": "additions:item/depth_meter_03" },
+        { "predicate": { "additions:angle": 0.25 }, "model": "additions:item/depth_meter_04" },
+        { "predicate": { "additions:angle": 0.3125 }, "model": "additions:item/depth_meter_05" },
+        { "predicate": { "additions:angle": 0.375 }, "model": "additions:item/depth_meter_06" },
+        { "predicate": { "additions:angle": 0.4375 }, "model": "additions:item/depth_meter_07" },
+        { "predicate": { "additions:angle": 0.5 }, "model": "additions:item/depth_meter_08" },
+        { "predicate": { "additions:angle": 0.5625 }, "model": "additions:item/depth_meter_09" },
+        { "predicate": { "additions:angle": 0.625 }, "model": "additions:item/depth_meter_10" },
+        { "predicate": { "additions:angle": 0.6875 }, "model": "additions:item/depth_meter_11" },
+        { "predicate": { "additions:angle": 0.75 }, "model": "additions:item/depth_meter_12" },
+        { "predicate": { "additions:angle": 0.8125 }, "model": "additions:item/depth_meter_13" },
+        { "predicate": { "additions:angle": 0.875 }, "model": "additions:item/depth_meter_14" },
+        { "predicate": { "additions:angle": 0.9375 }, "model": "additions:item/depth_meter_15" }
+    ]
+}

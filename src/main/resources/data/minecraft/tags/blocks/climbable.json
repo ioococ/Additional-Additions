@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    {"id": "additionaladditions:rope", "required": false}
+    {"id": "additions:rope", "required": false}
   ]
 }

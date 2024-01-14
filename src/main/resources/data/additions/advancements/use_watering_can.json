@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "title": {
+      "translate": "additions.advancements.use_watering_can"
+    },
+    "description": {
+      "translate": "additions.advancements.use_watering_can.desc"
+    },
+    "icon": {
+      "item": "additions:watering_can"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": ["additions:watering_can"]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ]
+}

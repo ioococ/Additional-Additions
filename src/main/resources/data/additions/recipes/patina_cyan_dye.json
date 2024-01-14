@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "additions:copper_patina"}
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 2
+  }
+}

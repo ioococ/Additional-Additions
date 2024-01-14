@@ -1,5 +1,5 @@
 # Additional Additions Forge
-### Report issues [here](https://github.com/Dqu1J/additionaladditions)
-Fabric version [here](https://github.com/Dqu1J/additionaladditions)  
-See description [here](https://github.com/Dqu1J/additionaladditions)  
-Wiki [here](https://github.com/Dqu1J/additionaladditions/wiki)
+### Report issues [here](https://github.com/Dqu1J/additions)
+Fabric version [here](https://github.com/Dqu1J/additions)  
+See description [here](https://github.com/Dqu1J/additions)  
+Wiki [here](https://github.com/Dqu1J/additions/wiki)

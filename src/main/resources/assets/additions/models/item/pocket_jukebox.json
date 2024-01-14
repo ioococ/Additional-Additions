@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:item/pocket_jukebox"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "additions:disc": 0
+      },
+      "model": "additions:item/pocket_jukebox_0"
+    },
+    {
+      "predicate": {
+        "additions:disc": 1
+      },
+      "model": "additions:item/pocket_jukebox_1"
+    }
+  ]
+}

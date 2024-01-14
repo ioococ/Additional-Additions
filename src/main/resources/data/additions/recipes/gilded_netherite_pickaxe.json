@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {"item": "minecraft:netherite_pickaxe"},
+  "addition": {"item": "additions:gold_ring"},
+  "result": {"item": "additions:gilded_netherite_pickaxe"},
+  "template": {"item": "additions:gilded_netherite_upgrade"}
+}

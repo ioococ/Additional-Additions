@@ -1,0 +1,6 @@
+{
+  "parent": "additions:item/crossbow_with_spyglass",
+  "textures": {
+    "2": "minecraft:item/crossbow_pulling_0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {"item": "additions:copper_patina"}
+  },
+  "result": {
+    "item": "additions:patina_block",
+    "count": 1
+  }
+}
